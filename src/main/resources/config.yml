@@ -1,0 +1,15 @@
+# The message sent after a player enabled their item lock.
+lock-enabled-message: "&aYour item lock has been enabled."
+
+# The message sent after a player disables their item lock.
+lock-disabled-message: "&aYour item lock has been disabled."
+
+# The message sent after a player tries to drop an item while their item lock is enabled.
+no-drop-lock-enabled: "&cYou may not drop items, disable your item lock with /itemlock."
+
+# The time in milliseconds before a player can drop an item after disabling their item lock.
+# Set to 0 to disable.
+drop-disable-time: 5000
+
+# The message sent after a player tries to drop an item during the disabled drop time indicated above.
+no-drop-disable-time: "&cYou may not drop items, wait %time% more seconds."

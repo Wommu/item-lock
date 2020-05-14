@@ -1,0 +1,10 @@
+name: ItemLock
+description: Prevents players from accidentally dropping their items.
+author: Wommu#5864
+
+main: dev.wommu.itemlock.ItemLockPlugin
+version: ${project.version}
+
+commands:
+  itemlock:
+    description: Toggles the itemlock.
